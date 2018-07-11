@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Saddle.this|Style</title>
+
+  <!-- Bootstrap Core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom Fonts -->
+  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="css/stylish-portfolio.min.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
+
+  <body id="page-top">
+    <!-- Navigation -->
+    <a class="menu-toggle rounded" href="">
+      <div class="saddle">
+        <i class="fa fa-bars">Saddle.this</i>
+      </div>
+    </a>
+    <nav id="sidebar-wrapper">
+      <ul class="sidebar-nav">
+        <li class="sidebar-brand">
+          <a class="js-scroll-trigger" href="#page-top">Saddle.this</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="style.html ">Style</a>
+        </li>
+        <li class="nav-item dropdown ">
+          <a class="nav-link dropdown-toggle " id="navbarDropdownLogin" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Interior
+          </a>
+          <div class="dropdown-menu dropdown-menu-right " aria-labelledby="navbarDropdownInterior">
+            <a class="dropdown-item dropdown-txt" href="interior-whimsy.html ">Whimsy Designs</a>
+            <a class="dropdown-item dropdown-txt" href="interior-gathering.html ">Gathering Rooms</a>
+            <a class="dropdown-item dropdown-txt" href="interior-sanctuary.html ">Sanctuary Rooms</a>
+            <a class="dropdown-item dropdown-txt" href="interior-kids-wing.html ">The Kids Wing</a>
+            <a class="dropdown-item dropdown-txt" href="interior-d-lounge.html ">D-Lounge</a>
+            <a class="dropdown-item dropdown-txt" href="interior-escape-nature.html">Escape-to-Nature</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="blog.html">Blog</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link " href="contact.html ">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!--Personality Design Style Section -->
+    <section class="style-main">
+      <div class="container">
+        <h2 class="mt-4 mb-3 text-center">What's Your Personality Design Style?</h2>
+        <h3 class="mt-4 mb-3 text-center">The decor in our home reflects our personality. If you're thinking about decorating your house, a good starting point
+          is to learn about different design styles. Find out what style complements your personality by taking a quiz.
+          <a class="btn btn-dark btn-xl js-scroll-trigger text-center" href="#style-modal-header-btn">Find Out More</a>
+        </h3>
+      </div>
+    </section>
+
+    <section class="style-modal" id="style-modal-header-btn">
+      <div class="container">
+        <h1 class="mb-0 text-center">"Your home should tell a story of who you are, and be a collection of what you love."</h1>
+        <h6 class="mb-0 text-center">~ Nate Berkus</h6>
+        <div class="wrapper">
+          <div class="question"></div>
+          <div class="answers">
+            <div class="answer-btn ans1" data-value="answer1"></div>
+            <div class="answer-btn ans2" data-value="answer2"></div>
+            <div class="answer-btn ans3" data-value="answer3"></div>
+            <div class="answer-btn ans4" data-value="answer4"></div>
+            <div class="answer-btn ans5" data-value="answer5"></div>
+            <div class="answer-btn ans6" data-value="answer6"></div>
+            <button id="button-style" class="btn-style btn-xl btn-primary">Take the Design Style Quiz</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="styleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title text-center" id="exampleModalLabel">Found your Personality Design Style!</h5>
+            <button type="btn" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p id="resultsTitle"></p>
+            <img id="resultsImage" class="img-responsive" src="">
+            <p id="resultsText"></p>
+          </div>
+          <div class="modal-footer">
+            <button type="btn" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer text-center">
+      <div class="container ">
+        <ul class="list-inline mb-5">
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle text-white mr-3  text-center" href="#">
+              <i class="icon-social-facebook"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle text-white mr-3 text-center" href="https://github.com/cristinadefoe">
+              <i class="icon-social-github"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle text-white mr-3 text-center" href="https://www.linkedin.com/in/cristina-defoe">
+              <i class="icon-social-linkedin"></i>
+            </a>
+          </li>
+        </ul>
+        <p class="text-muted small mb-0">Copyright &copy; Saddle.this 2018</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/stylish-portfolio.min.js"></script>
+
+    <!-- Custom jquery -->
+    <script src="js/style.js"></script>
+
+  </body>
+
+</html>

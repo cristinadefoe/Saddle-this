@@ -1,0 +1,713 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Source Sans Pro';
+}
+
+.btn-xl {
+  padding: 1.25rem 2.5rem;
+}
+
+.content-section {
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
+}
+
+.content-section-heading h2 {
+  font-size: 3rem;
+}
+
+.content-section-heading h3 {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+.text-faded {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.carousel-item {
+  height: 65vh;
+  min-height: 700px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+header.container{
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 56px);
+  max-width: 100%;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Side Menu */
+#sidebar-wrapper {
+  position: fixed;
+  z-index: 2;
+  right: 0;
+  width: 250px;
+  height: 100%;
+  -webkit-transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+  -ms-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+  transform: translateX(250px);
+  background: #1D809F;
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.sidebar-nav {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.sidebar-nav li.nav-item a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  padding: 15px;
+}
+
+.sidebar-nav li a:hover {
+  text-decoration: none;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+  text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+  font-size: 1.2rem;
+  background: rgba(52, 58, 64, 0.1);
+  height: 80px;
+  line-height: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+  color: #ecb807;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+  color: #fff;
+  background: none;
+}
+
+#sidebar-wrapper.active {
+  right: 250px;
+  width: 250px;
+  -webkit-transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+  -ms-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+
+.menu-toggle {
+  position: fixed;
+  right: 15px;
+  top: 15px;
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  color: #fff;
+  background: rgba(52, 58, 64, 0.5);
+  line-height: 50px;
+  z-index: 999;
+}
+
+.menu-toggle:focus, .menu-toggle:hover {
+  color: #fff;
+}
+
+.menu-toggle:hover {
+  background: #343a40;
+}
+
+.nav-item .nav-link {
+  font-size: 90%;
+  font-weight: 400;
+  padding: 0.75em 0;
+  letter-spacing: 1px;
+}
+
+.nav-item .nav-link.active, .nav-item .nav-link:hover {
+  color: #ecb807;
+}
+
+a.dropdown-item{
+color: black !important;
+background-color: #ecb807;
+}
+/* End of Side Menu */
+    
+.portfolio-item .caption .caption-content {
+  color: #fff;
+  margin: auto 2rem 2rem;
+}
+
+.portfolio-item .caption .caption-content h2 {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+.portfolio-item .caption .caption-content p {
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+@media (min-width: 992px) {
+  .portfolio-item {
+    max-width: none;
+    margin: 0;
+  }
+  .portfolio-item .caption {
+    /* -webkit-transition: -webkit-clip-path 0.25s ease-out, background-color 0.7s; */
+    -webkit-clip-path: inset(0px);
+    clip-path: inset(0px);
+  }
+  .portfolio-item .caption .caption-content {
+    transition: opacity 0.25s;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 5rem;
+  }
+  .portfolio-item img {
+    /* -webkit-transition: -webkit-clip-path 0.25s ease-out; */
+    -webkit-clip-path: inset(-1px);
+    clip-path: inset(-1px);
+  }
+  .portfolio-item:hover img {
+    -webkit-clip-path: inset(2rem);
+    clip-path: inset(2rem);
+  }
+  .portfolio-item:hover .caption {
+    background-color: rgba(29, 128, 159, 0.9);
+    -webkit-clip-path: inset(2rem);
+    clip-path: inset(2rem);
+  }
+}
+
+footer.footer {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+footer.footer .social-link {
+  display: block;
+  height: 4rem;
+  width: 4rem;
+  line-height: 4.3rem;
+  font-size: 1.5rem;
+  background-color: #1D809F;
+  transition: background-color 0.15s ease-in-out;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+footer.footer.social-link:hover {
+  background-color: #155d74;
+  text-decoration: none;
+}
+
+a {
+  color: #1D809F;
+}
+
+a:hover, a:focus, a:active {
+  color: #155d74;
+}
+
+.btn-primary {
+  background-color: #1D809F !important;
+  border-color: #1D809F !important;
+  color: #fff !important;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  background-color: #155d74 !important;
+  border-color: #155d74 !important;
+}
+
+.btn-secondary {
+  background-color: #ecb807 !important;
+  border-color: #ecb807 !important;
+  color: #fff !important;
+}
+
+.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
+  background-color: #ba9106 !important;
+  border-color: #ba9106 !important;
+}
+
+.btn-dark {
+  color: #fff !important;
+}
+
+.btn {
+  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.1);
+  font-weight: 700;
+}
+
+.bg-primary {
+  background-color: #1D809F !important;
+}
+
+.text-primary {
+  color: #1D809F !important;
+}
+
+.text-secondary {
+  color: #ecb807 !important;
+}
+
+/* Index */
+.rustic {
+  padding: 15rem 0;
+  background: url("https://images.unsplash.com/photo-1522827144599-b1f5b28b2f52?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=77cc652eedf57683d69e6acb1fd16b56&auto=format&fit=crop&w=700&q=60");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#home-blog-bkgr{
+  padding: 15rem 0;
+  background: url("https://images.unsplash.com/photo-1525550916887-b44525f0bac6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=678bd7217d5ef673ec69a19ba1b80a9e&auto=format&fit=crop&w=700&q=60");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+li{
+  text-align: left;
+  font-size: 25px !important;
+  font-weight: 700px !important;
+}
+
+/* Aligns all portfolio images */
+.portfolio-item img {
+    height: 400px;
+    width: 100%;
+}
+
+/* About
+-------------------------*/
+.about-background{
+  background: url("https://images.unsplash.com/photo-1500817487388-039e623edc21?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6707d2beeb04c178219ae3ac382b2d40&auto=format&fit=crop&w=800&q=60");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+#about-me-header {
+  padding: 15rem 0;
+  background: url("https://images.unsplash.com/photo-1490289211021-971b70434bfb?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=cbff8ec09cb44cb396c9dbd60ab3ed99&auto=format&fit=crop&w=500&q=60");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.site-heading {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.site-heading .site-heading-upper {
+  display: block;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.site-heading .site-heading-lower {
+  font-size: 5rem;
+  font-weight: 100;
+  line-height: 4rem;
+}
+
+.page-section {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.section-heading {
+  text-transform: uppercase;
+}
+
+.section-heading .section-heading-upper {
+  display: block;
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+.section-heading .section-heading-lower {
+  display: block;
+  font-size: 3rem;
+  font-weight: 100;
+}
+
+.bg-faded {
+  background-color: rgba(255, 255, 255, 0.85);
+}
+
+/* Style
+-------------------------*/
+.style-main {
+  padding: 15rem 0;
+  background: url("https://user-images.githubusercontent.com/35505038/42427299-f0b157b8-82ea-11e8-9f77-eb0a42d5ef85.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.style-main h2 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  display: block;
+  max-width: 30rem;
+  color: #ecb807 !important;
+}
+
+.style-main h3 {
+  font-size: 2rem;
+  font-weight: 500;
+  display: block;
+  max-width: 35rem;
+  color: ivory !important;
+}
+
+.style-modal {
+  padding: 15rem 0;
+  background: url("https://user-images.githubusercontent.com/35505038/42427773-9a860c14-82ed-11e8-85b9-06c05ba61fe4.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height : 100%;
+  min-width : 100%;
+  background-size:100% 100%;
+}
+
+img{
+  height: 250px;
+}
+
+.wrapper {
+  width: 95%;
+  height: 95%;
+  box-sizing: border-box;
+  margin: 2.5% auto;
+}
+
+.btn-style{
+  display: block;
+  margin: 0 auto;
+}
+
+.answers{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.answer-btn{
+  margin-top: 10px;
+}
+
+.question{
+  font-size: 40px;
+  font-weight: 700;
+  font-style: italic;
+  margin-bottom: 20px;
+  text-transform: none;
+  color: #1D809F;
+}
+
+#resultsImage{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: 250px;
+}
+
+#resultsTitle {
+  font-size: 30px;
+  font-weight: 700;
+  font-family: 'Kaushan Script'cursive;
+  text-align: center;
+  color:  #2AB7CA;
+}
+
+#resultsText{
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Kaushan Script';
+}
+
+.modal-body{
+  background-color: lightgrey;
+}
+
+/* Whimsy
+-------------------------*/
+.whimsy-background{
+  background: url("https://images.unsplash.com/photo-1519806870789-d65fc19601fa?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f10bfb20d3d87116f864637a388f7860&auto=format&fit=crop&w=700&q=60");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+#whimsy-header{
+  padding: 15rem 0;
+  background: url("https://photos.zillowstatic.com/p_f/ISa134tyhk35du0000000000.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#whimsy-blog-img{
+  padding: 15rem 0;
+  background: url("https://user-images.githubusercontent.com/35505038/42584704-0fc4a3f0-84f1-11e8-8287-8b268eba3ec3.jpg");
+  background-position: center center;
+  background-repeat: no-repeat; 
+  object-fit: cover;
+}
+
+/* Aligns all portfolio images */
+#whimsy-portfolio .portfolio-item img {
+    height:400px;
+    width: 100%;
+}
+
+/* Sanctuary */
+.bookcase-items{
+  text-align: center;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+#sanctuary {
+  padding: 15rem 0;
+  background: url("https://i.pinimg.com/736x/92/5c/5c/925c5c2605658dda5b35cab4a2448c14--bright-colors-happy-colors.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#office {
+  padding: 15rem 0;
+  background: url("https://images.unsplash.com/photo-1516620415050-dfff17385bc2?ixlib=rb-0.3.5&s=b30f3df244ffafa73012ca43c113245b&auto=format&fit=crop&w=700&q=60");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#rh{
+  padding: 15rem 0;
+  background: url("https://images.unsplash.com/photo-1454255638526-3490688a4295?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5224892a26fb08df9bbc2f4169160328&auto=format&fit=crop&w=800&q=60");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+label {
+   color: ivory;
+} 
+
+/* Aligns all portfolio images */
+ #portfolio-sanctuary .portfolio-item img {
+    height:400px;
+    width:100%;
+} 
+
+/* Kids Wing
+-------------------------*/
+.kids-wing-background{
+  background: url("https://images.unsplash.com/photo-1523436278115-b135a7a26ad6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=421647f38a4fec221f616c869b97fb97&auto=format&fit=crop&w=700&q=60");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+#kids-wing-header {
+  padding: 15rem 0;
+  background: url("https://user-images.githubusercontent.com/35505038/42576444-a155243c-84df-11e8-9359-04ed3c85c2aa.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#kids-blog-img{
+  padding: 15rem 0;
+  background: url("https://images.unsplash.com/photo-1508615039623-a25605d2b022?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7d106299bf1c34b2f367f2280c67a80a&auto=format&fit=crop&w=800&q=60");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Gathering
+-------------------------*/
+.gathering-background{
+  background: url("https://images.unsplash.com/photo-1502207252192-3e376a5b50bf?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=20bd7b6b495c822d73673624fe8d70f2&auto=format&fit=crop&w=700&q=60");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+#gathering-header{
+  padding: 15rem 0;
+  background: url("https://user-images.githubusercontent.com/35505038/42588841-39c0d556-84fc-11e8-8d4f-8f9fd1163841.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Escape-to-Nature
+-------------------------*/
+.escape-background{
+  background: url("https://images.unsplash.com/photo-1523431182330-8aa404383352?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1a4de2be72031d446f73e0d0512a739b&auto=format&fit=crop&w=700&q=60");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+#escape-header{
+  padding: 15rem 0;
+  background: url("https://user-images.githubusercontent.com/35505038/42590091-1518d40c-8500-11e8-9e76-d12b0354c8c5.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* D-Lounge
+-------------------------*/
+.dlounge-background{
+  background: url("https://images.unsplash.com/photo-1522839206838-1cfecf32cc72?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b2cca00f8a48c9ed8b2b55ee357b30fc&auto=format&fit=crop&w=700&q=60");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+#dlounge-header{
+  padding: 15rem 0;
+  background: url("https://user-images.githubusercontent.com/35505038/42591092-d5a1ab48-8502-11e8-8337-621fce3b7e83.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Blog */
+#header-blog{
+  padding: 15rem 0;
+  background: url("http://homeishere.furniturerow.com/wp-content/uploads/2014/03/The-Big-Picture.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Contact  */
+.bg-light {
+  padding: 15rem 0;
+  background: url("https://images.unsplash.com/photo-1525802498323-c8fbf69eb42f?ixlib=rb-0.3.5&s=dbe025c36b0770156a550ca433ec305e&auto=format&fit=crop&w=800&q=60");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.social a {
+  font-size: 20px;
+  line-height: 40px;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  color: white;
+  border-radius: 100%;
+  outline: none;
+  background-color:  #f7c926; 
+ }  
+
+ .social-buttons  a:active, .social a:focus, .social a:hover {
+  background-color: #2AB7CA;
+ } 
+
+.contact-details{
+  padding: 15rem 0;
+  background: url(" https://images.unsplash.com/photo-1528502768883-5a2d5ef73623?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=db93ea69c9dc12804304a18072b4c778&auto=format&fit=crop&w=800&q=60");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Map */
+.map {
+  height: 30rem;
+}
+
+@media (max-width: 992px) {
+  .map {
+    height: 75%;
+  }
+}
+
+.map iframe {
+  pointer-events: none;
+}
+
+.scroll-to-top {
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  display: none;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  color: white;
+  background: rgba(52, 58, 64, 0.5);
+  line-height: 45px;
+}
+
+.scroll-to-top:focus, .scroll-to-top:hover {
+  color: white;
+}
+
+.scroll-to-top:hover {
+  background: #343a40;
+}
+
+.scroll-to-top i {
+  font-weight: 800;
+}
+
