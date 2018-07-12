@@ -65,6 +65,15 @@
         </ul>
     </nav>
 
+    <div id="fb-root"></div>
+    <script>(function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+
     <!-- Header Whimsy -->
     <section class="content-section" id="whimsy-header">
         <div class="container text-center">
@@ -219,6 +228,13 @@
                                 </span>
                                 <!-- <span class="section-heading-lower">~Goethe</span> -->
                             </h2>
+
+                            <!-- FB like -->
+                            <div class="fb-like" data-href="https://guarded-depths-83548.herokuapp.com/interior-whimsy.html" data-layout="standard"
+                                data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
+
+                                <!-- FB comments -->
+                                <div class="fb-comments" data-href="https://guarded-depths-83548.herokuapp.com/interior-whimsy.html" data-numposts="10"></div>
                         </div>
                     </div>
                 </div>
