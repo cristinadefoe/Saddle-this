@@ -88,7 +88,7 @@
             var colors = window.Office.artColors;
 
             return {
-                color: "white",
+                color: "White",
                 colors: colors
             };
         },
@@ -134,7 +134,7 @@
             var colors = window.Office.hydrangeaColors;
 
             return {
-                color: "ivory",
+                color: "Ivory",
                 colors: colors
             };
         },
@@ -180,7 +180,7 @@
             var colors = window.Office.vaseColors;
 
             return {
-                color: "yellow",
+                color: "Yellow",
                 colors: colors
             };
         },

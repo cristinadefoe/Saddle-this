@@ -120,12 +120,20 @@
               <h5 class="card-header text-center">Search</h5>
               <div class="card-body">
                 <div class="input-group">
-                  <input type="text" class="form-control" placeholder="Search for...">
-                  <span class="input-group-btn">
-                    <button class="btn btn-secondary" type="button">Go!</button>
-                  </span>
+                  <div id="search">
+                    <input type="text" placeholder="filter by search" id="filter-search">
+                    <span class="input-group-btn">
+                      <button class="btn btn-secondary" type="button">Go!</button>
+                    </span>
+                  </div>
                 </div>
               </div>
+            </div>
+            <div id="gallery">
+              <img src="img/fullsize/10.jpg" , data-tags="Decor, Interior" alt="golf room" />
+              <img src="img/fullsize/11.jpg" , data-tags="Decor, Interior" alt="diva room">
+              <img src="img/fullsize/12.jpg" , data-tags="Decor, Interior" alt="bath">
+              <img src="img/fullsize/13.jpg" , data-tags="Decor, Interior" alt="chair">
             </div>
 
             <!-- Favorite Things -->
@@ -227,7 +235,7 @@
             <!-- Portfolio: #1 -->
             <div class="col-lg-6">
               <a class="portfolio-item" href="img/fullsize/10.jpg">
-                <img class="img-fluid" src="img/thumbnails/10.jpg" alt="">
+                <img class="img-fluid" src="img/thumbnails/10.jpg" alt="golf room">
                 <span class="caption">
                   <span class="caption-content">
                     <h2>The Kids Wing</h2>
@@ -239,7 +247,7 @@
             <!-- Portfolio: #2 -->
             <div class="col-lg-6">
               <a class="portfolio-item" href="img/fullsize/11.jpg">
-                <img class="img-fluid" src="img/thumbnails/11.jpg" alt="">
+                <img class="img-fluid" src="img/thumbnails/11.jpg" alt="diva room">
                 <span class="caption">
                   <span class="caption-content">
                     <h2>The Kids Wing</h2>
@@ -251,7 +259,7 @@
             <!-- Portfolio: #3  -->
             <div class="col-lg-6">
               <a class="portfolio-item" href="img/fullsize/12.jpg">
-                <img class="img-fluid" src="img/thumbnails/12.jpg" alt="">
+                <img class="img-fluid" src="img/thumbnails/12.jpg" alt="bath">
                 <span class="caption">
                   <span class="caption-content">
                     <h2>The Kids Wing</h2>
@@ -263,7 +271,7 @@
             <!-- Portfolio: #4  -->
             <div class="col-lg-6">
               <a class="portfolio-item" href="img/fullsize/13.jpg">
-                <img class="img-fluid" src="img/thumbnails/13.jpg" alt="">
+                <img class="img-fluid" src="img/thumbnails/13.jpg" alt="chair">
                 <span class="caption">
                   <span class="caption-content">
                     <h2>The Kids Wing</h2>
@@ -332,6 +340,44 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/stylish-portfolio.min.js"></script>
+
+    <!-- Custom Script -->
+    <script src="js/view.js" type="text/javascript"></script>
+
+    <!-- Javascript search from Javascript & Jquery Jon Duckett -->
+    <script>
+      (function () {
+        var $imgs = $('#gallery img');
+        var $search = $('#filter-search');
+        var cache = [];
+
+        $imgs.each(function () {
+          cache.push({
+            element: this,
+            text: this.alt.trim().toLowerCase()
+          });
+        });
+
+        function filter() {
+          var query = this.value.trim().toLowerCase();
+
+          cache.forEach(function (img) {
+            var index = 0;
+            if (query) {
+              index = img.text.indexOf(query);
+            }
+
+            img.element.style.display = index === -1 ? 'none' : '';
+          });
+        }
+
+        if ('oninput' in $search[0]) {
+          $search.on('input', filter);
+        } else {
+          $search.on('keyup', filter);
+        }
+      }());
+    </script>
 
 </body>
 

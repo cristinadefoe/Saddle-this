@@ -497,10 +497,10 @@ img{
 
 #whimsy-blog-img{
   padding: 15rem 0;
-  background: url("https://user-images.githubusercontent.com/35505038/42584704-0fc4a3f0-84f1-11e8-8287-8b268eba3ec3.jpg");
+  background: url("https://images.unsplash.com/photo-1519806870789-d65fc19601fa?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f10bfb20d3d87116f864637a388f7860&auto=format&fit=crop&w=700&q=60");
   background-position: center center;
   background-repeat: no-repeat; 
-  object-fit: cover;
+  background-size: cover;
 }
 
 /* Aligns all portfolio images */
