@@ -8,7 +8,7 @@ This is a blog app about interior design focusing on Contemporary Rustic Mountai
 
 #### Screenshot
 
-https://user-images.githubusercontent.com/35505038/42606658-1e0da54c-853c-11e8-929a-10c375aa4544.png
+![screen shot 2018-08-04 at 4 30 50 pm](https://user-images.githubusercontent.com/35505038/43680961-ef4107e2-9803-11e8-8313-0e132c02ab4f.png)
 
 ## Built With
 
