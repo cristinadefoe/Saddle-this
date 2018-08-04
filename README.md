@@ -8,7 +8,11 @@ This is an interior design lifestyle blog for a rustic contemporary mountain hou
 
 #### Screenshot
 
+<<<<<<< HEAD
 ![screen shot 2018-08-04 at 4 30 50 pm](https://user-images.githubusercontent.com/35505038/43680959-d715fb8c-9803-11e8-9ace-7141d29a2f1c.png)
+=======
+![screen shot 2018-08-04 at 4 30 50 pm](https://user-images.githubusercontent.com/35505038/43680961-ef4107e2-9803-11e8-8313-0e132c02ab4f.png)
+>>>>>>> 8d66799591f753dddc3a770a407c5ab9bc1fe26b
 
 ## Built With
 
@@ -38,4 +42,8 @@ This is an interior design lifestyle blog for a rustic contemporary mountain hou
 
 * This site was used to identify the different "Design Styles Personality" (https://www.homedit.com/guide-identifying-home-decor-style).
 
+<<<<<<< HEAD
 * ToDo code is from class content.
+=======
+* This site was used to identify the different "Design Styles Personality" (https://www.homedit.com/guide-identifying-home-decor-style/).
+>>>>>>> 8d66799591f753dddc3a770a407c5ab9bc1fe26b
