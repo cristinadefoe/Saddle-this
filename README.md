@@ -24,7 +24,6 @@ This is an interior design lifestyle blog for a rustic contemporary mountain hou
 * MySQL (https://www.mysql.com) - Database
 * React (https://reactjs.org)
 * Google API for Maps and Geocode (https://developers.google.com/maps/documentation/)
-* FB API for likes and comments (https://developers.facebook.com)
 
 ## Author
 
@@ -37,9 +36,3 @@ This is an interior design lifestyle blog for a rustic contemporary mountain hou
 * Many thanks to Dennis Molloy without him I could not have finished this project, and Thomas Rizzo for helping me deploy the site to Heroku. Finally, I want to thank Sarah Cullen for teaching me how to code. I'm humbled and grateful to have had this opportunity to take the class under her direction. 
 
 * This site was used to identify the different "Design Styles Personality" (https://www.homedit.com/guide-identifying-home-decor-style).
-
-<<<<<<< HEAD
-* ToDo code is from class content.
-=======
-* This site was used to identify the different "Design Styles Personality" (https://www.homedit.com/guide-identifying-home-decor-style/).
->>>>>>> 8d66799591f753dddc3a770a407c5ab9bc1fe26b
