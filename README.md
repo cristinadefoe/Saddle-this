@@ -8,7 +8,7 @@ This is an interior design lifestyle blog for a rustic contemporary mountain hou
 
 #### Screenshot
 
-![screen shot 2018-07-17 at 7 34 52 pm](https://user-images.githubusercontent.com/35505038/42854341-a7c37a58-89f8-11e8-9fce-2012add66d9b.png)
+![screen shot 2018-08-04 at 4 30 50 pm](https://user-images.githubusercontent.com/35505038/43680959-d715fb8c-9803-11e8-9ace-7141d29a2f1c.png)
 
 ## Built With
 
