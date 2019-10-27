@@ -33,7 +33,7 @@ This is an interior design lifestyle blog for a rustic contemporary mountain hou
 
 * Thanks to anyone's code that was used as inspiration.
 
-* Many thanks to Dennis Molloy without him I could not have finished this project, and Thomas Rizzo for helping me deploy the site to Heroku. Finally, I want to thank Sarah Cullen for teaching me how to code. I'm humbled and grateful to have had this opportunity to take the class under her direction. 
+* Many thanks to Dennis Molloy without him I could not have finished this project, and Thomas Rizzo for helping me deploy the site to Heroku. Finally, I want to thank Sarah Cullen for teaching me how to code. 
 
 * This site was used to identify the different "Design Styles Personality" (https://www.homedit.com/guide-identifying-home-decor-style).
 
