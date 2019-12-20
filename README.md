@@ -27,7 +27,7 @@ This is an interior design lifestyle blog for a rustic contemporary mountain hou
 
 ## Author
 
-* **Cristina Defoe** 
+* **Cristina D** 
 
 ## Acknowledgments
 
