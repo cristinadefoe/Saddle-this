@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/cristinadefoe/Saddle-this#readme",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "babel-standalone": "^6.26.0",
     "body-parser": "^1.18.3",
     "bootstrap": "^4.3.1",
